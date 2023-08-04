@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Тест на знание Minecraft</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="images"></div>
+        
+        <div class="quiz">
+
+            
+            <div class="quiz_title">
+                <img src="images/sticker.png" alt="Стиекр" onclick="checkAnswer()" class="sticker">
+
+                <h2 class="title">Приветствую! Здесь ты можешь пройти тест на знание майнкрафта</h2>
+
+                <h5>Хочешь проверить себя? Тогда жми на кнопку и узнай, как хорошо ты знаком с этой игрой! Вопросы располагаются в порядке возрастания сложности, так что в конце придётся хорошо подумать :D</h5>
+
+            </div>
+
+            <ul class="questions">
+            </ul>
+
+            <button onclick="checkAnswer()" class="submit_button" id="submit">Начать тест</button>
+
+        </div>
+
+        <footer>
+            <p id="contacts">Contact me on Telegram: @DjB0w</p>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
